@@ -1,0 +1,12 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+CREATE TABLE Person
+(ID INTEGER PRIMARY KEY,
+NAME CHAR(20),
+LASTNAME CHAR(2),
+AGE INTEGER);
+
+INSERT INTO person VALUES (13, 'Amir', 'Twito', 33);
+INSERT INTO person VALUES (44, 'Shani', 'Gueta', 40);
+INSERT INTO person VALUES (66, 'Udi', 'Levi', 48);
